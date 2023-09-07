@@ -4,10 +4,16 @@ h1 {
     font-size: 200%;
 }
 
-body {
-    background-color: salmon;
-    background: red;
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
+
+body {
+    background-color: rgb(254, 158, 147);
+}
+
 
 
 footer {
@@ -19,8 +25,27 @@ footer {
 }
 
 #horiseon { 
-    width: 200px;
-    height: 100px;
+    width: 800px;
+    height: 400px;
+    z-index: 5;
+} 
+
+#github-picture {
+    width: 600px;
+    height: 400px;
     display: flex;
     flex-direction: column;
+}
+
+.contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1fr;
+    padding-right: 1fr;
+}
+
+@media (max-width: 750px)  { 
+    *{
+    padding: 25px 10%;
+}
 }

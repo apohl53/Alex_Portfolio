@@ -7,15 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
-    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/style.css" /> 
     
 </head>
 
-<body>
+<body id="body">
     <header>
     <h1> Alex Pohlman </h1>
     <img id="me" src="./assets/me.jpg" alt="a picture of Alex">
-        <nav>
+        <nav class="center">
             <ul>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#my-work">My Work</a></li>
@@ -24,40 +24,37 @@
         </nav>
     </header>
 
-    <!-- *Body Checklist*
-     Hero Banner w/ picture
-     Multiple projects w/ hw #1 as the biggest
-     About me section
-     Contact footer
-    -->
-
     <main>
         <section>
-            <article id="about-me">
-                <h2> About Me</h2>
+            <article>
+                <h2 class="center"> About Me</h2>
                 <div>
                     <p> Hi my name is Alex, I am a student with Rutgers Coding Bootcamp. I am new to coding but eager to learn!</p>
                 </div>
             </article>
         </section>
 
-       <section id="my-work">
-        <h2> My Work </h2>
+       <section>
+        <h2 class="center"> My Work </h2>
          <div>
-            <h2> Horiseon Challenge </h2>
-                <img id="horiseon" src="./assets/Screen Shot 2023-09-05 at 8.57.51 PM.png" alt="Horiseon's front page">
+            <br> 
+            <br>
+            <h3 class="center"> Horiseon Challenge </h3>
                     <p> This was my first coding homework. As you can see the site is functional and the code behind it is a little cleaner.</p>
-                        <a href="https://apohl53.github.io/Horiseon_Challenge/">Click here to view project</a>
+                        <a href="https://apohl53.github.io/Horiseon_Challenge/"><img id="horiseon" src="./assets/Screen Shot 2023-09-05 at 8.57.51 PM.png" alt="Horiseon's front page"></a>
         </div>
-
+        <div>
+            <h3 class="center"> Github </h3>
+                    <p class="center"> This is where I would put my other projects, if I had any!</p>
+                        <a href="https://github.com/apohl53"><img id="github-picture" src="./assets/github screenshot.png" alt="Alex's Github Page"></a>
+        </div>
     </section>
-
-        
+  
     </main>
     <footer id="contact">
-       <span>
-        <a href="https://github.com/apohl53">github.com/apohl53</a>
-        <a href="mailto:apohlman53@gmail.com">apohlman53@gmail.com</a>
+       <span class="center">
+        <a class="contact" href="https://github.com/apohl53">github.com/apohl53</a>
+        <a class="contact" href="mailto:apohlman53@gmail.com">apohlman53@gmail.com</a>
        </span>
     </footer>
 </body>
